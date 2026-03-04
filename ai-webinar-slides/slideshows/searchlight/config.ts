@@ -7,6 +7,7 @@ import Microsim2Slide from './slides/Microsim2Slide';
 import Microsim3Slide from './slides/Microsim3Slide';
 import Microsim4Slide from './slides/Microsim4Slide';
 import WhatIsPESlide from './slides/WhatIsPESlide';
+import CoverageSlide from './slides/CoverageSlide';
 import PartnersSlide from './slides/PartnersSlide';
 import DemoSlide from './slides/DemoSlide';
 import ClaudeCodeSlide from './slides/ClaudeCodeSlide';
@@ -29,7 +30,8 @@ export const searchlightConfig: SlideshowConfig = {
     Microsim3Slide,    // 6. Add dynamics
     Microsim4Slide,    // 7. Scale to millions
     WhatIsPESlide,     // 8. What we build: policies, households, dynamics
-    PartnersSlide,     // 9. Who uses it + gov adoption stories + logos
+    CoverageSlide,     // 9. Comprehensive coverage — programs, states, districts
+    PartnersSlide,     // 10. Who uses it + gov adoption stories + logos
     DemoSlide,         // 10. App screenshots
     ClaudeCodeSlide,      // 11. The PolicyEngine plugin for Claude
     PluginWorkflowSlide,  // 12. /encode-policy workflow
