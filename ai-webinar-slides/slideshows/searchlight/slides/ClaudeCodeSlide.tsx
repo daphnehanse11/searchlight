@@ -63,7 +63,7 @@ export default function ClaudeCodeSlide() {
           <div className="code-block-content">
             <pre className="text-sm">
               <span className="text-green-400">$</span> <span className="text-blue-300">/plugin install</span> <span className="text-yellow-300">complete@policyengine-claude</span>{'\n'}
-              <span className="text-gray-500">✓ 25 agents · 11 commands · 37 skills loaded</span>
+              <span className="text-gray-500">✓ 31 agents · 11 commands · 37 skills loaded</span>
             </pre>
           </div>
         </div>

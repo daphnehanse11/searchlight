@@ -9,11 +9,11 @@ const questions = [
   { q: '"What would a $4,000 child tax credit cost?"', category: 'Budget score' },
   { q: '"How many children would be lifted out of poverty?"', category: 'Poverty impact' },
   { q: '"Who wins and who loses by income decile?"', category: 'Distributional analysis' },
-  { q: '"Compare the EITC expansion to a flat UBI of $200/mo"', category: 'Policy comparison' },
-  { q: '"What would this mean for a single parent earning $35k in Texas?"', category: 'Household calculator' },
-  { q: '"Show me the marginal tax rates under this reform"', category: 'Tax analysis' },
-  { q: '"What\u2019s the impact in New York\u2019s 17th district?"', category: 'District analysis' },
-  { q: '"How does repealing the SALT cap affect the top decile?"', category: 'Reform scoring' },
+  { q: '"Compare EITC expansion to a $200/mo UBI"', category: 'Comparison' },
+  { q: '"Single parent earning $35k in Texas?"', category: 'Household' },
+  { q: '"Show me marginal tax rates under this reform"', category: 'Tax analysis' },
+  { q: '"Impact in New York\u2019s 17th district?"', category: 'District' },
+  { q: '"Repealing the SALT cap on the top decile?"', category: 'Reform scoring' },
 ];
 
 export default function PluginWorkflowSlide() {
