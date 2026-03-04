@@ -19,12 +19,12 @@ const options: { icon: Icon; title: string; verdict: string; problems: string[] 
   },
   {
     icon: IconBriefcase,
-    title: 'Go to a think tank',
-    verdict: 'Black box and one-shot',
+    title: 'Commission a model',
+    verdict: 'Slow and hard to iterate',
     problems: [
-      'Back-and-forth process, not interactive',
+      'Weeks of back-and-forth before you see results',
       'Proprietary models you can\u2019t inspect or adjust',
-      'Others can\u2019t critique or iterate on your proposal',
+      'Every new scenario means another request',
     ],
   },
   {
