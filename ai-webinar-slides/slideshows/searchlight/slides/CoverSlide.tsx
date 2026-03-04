@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const speakers = [
   { name: 'Max Ghenis', title: 'CEO, PolicyEngine', photo: '/headshots/max-ghenis.png' },
-  { name: 'Daphne Hansell', title: 'PolicyEngine', photo: '/headshots/daphne-hansell.jpeg' },
+  { name: 'Daphne Hansell', title: 'Healthcare Analyst, PolicyEngine', photo: '/headshots/daphne-hansell.jpeg' },
 ];
 
 export default function CoverSlide() {
