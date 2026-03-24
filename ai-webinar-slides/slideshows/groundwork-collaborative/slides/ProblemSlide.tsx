@@ -12,29 +12,29 @@ const options: { icon: Icon; title: string; verdict: string; problems: string[] 
     title: 'Ask CBO',
     verdict: 'Gatekept and slow',
     problems: [
-      'CBO uses HISIM2, their internal model, not publicly available',
-      'Only accessible if you\'re formally scoring legislation',
-      'No access for researchers, advocates, or most congressional staff',
+      'Not on Ways & Means or Senate Finance? Good luck.',
+      'Months-long queue, even for top committees',
+      'Usually just a budget number \u2014 no winners/losers breakdown',
     ],
   },
   {
     icon: IconBriefcase,
-    title: 'Commission Urban or RAND',
-    verdict: 'Proprietary and slow to iterate',
+    title: 'Commission a model',
+    verdict: 'Slow and hard to iterate',
     problems: [
-      'Urban\'s HIPSM and RAND\'s COMPARE are not open-source',
-      'RAND\'s model has seen little activity since 2015',
-      'Every new scenario means another request and more lead time',
+      'Weeks of back-and-forth before you see results',
+      'Proprietary models you can\u2019t inspect or adjust',
+      'Every new scenario means another request',
     ],
   },
   {
     icon: IconCalculator,
-    title: 'Build it yourself',
-    verdict: 'Complex and not credible',
+    title: 'DIY with a staffer',
+    verdict: 'Uncertain, not credible',
     problems: [
-      'ACA subsidies interact with income taxes in non-trivial ways',
-      'Plan choice, Medicaid cliffs, and CHIP overlap are hard to model',
-      'Results won\'t align with CBO or Urban; no external credibility',
+      'Tax and transfer policy is enormously complex',
+      'Back-of-envelope won\u2019t match CBO\u2019s eventual score',
+      'No external credibility for your numbers',
     ],
   },
 ];
@@ -43,7 +43,7 @@ export default function ProblemSlide() {
   return (
     <Slide footerText={FOOTER}>
       <SlideHeader>
-        <SlideTitle>You want to model how ACA subsidy changes affect coverage and costs. Now what?</SlideTitle>
+        <SlideTitle>You want to expand the child tax credit. Now what?</SlideTitle>
       </SlideHeader>
 
       <div className="grid grid-cols-3 gap-6 mt-4">
@@ -71,7 +71,7 @@ export default function ProblemSlide() {
       </div>
 
       <p className="text-center text-lg text-gray-500 mt-6">
-        Health policy modeling is even more gatekept than tax, and the models don&apos;t talk to each other.
+        Policy analysis is too slow, too costly, and too opaque.
       </p>
     </Slide>
   );

@@ -8,12 +8,13 @@ import Microsim3Slide from './slides/Microsim3Slide';
 import Microsim4Slide from './slides/Microsim4Slide';
 import WhatIsPESlide from './slides/WhatIsPESlide';
 import CoverageSlide from './slides/CoverageSlide';
-import LandscapeSlide from './slides/LandscapeSlide';
-import CapabilitiesSlide from './slides/CapabilitiesSlide';
-import WorkSlide from './slides/WorkSlide';
-import MarriageSlide from './slides/MarriageSlide';
 import PartnersSlide from './slides/PartnersSlide';
-import VisionSlide from './slides/VisionSlide';
+import DemoSlide from './slides/DemoSlide';
+import ClaudeCodeSlide from './slides/ClaudeCodeSlide';
+import PluginWorkflowSlide from './slides/PluginWorkflowSlide';
+import MarriageSlide from './slides/MarriageSlide';
+import WorkSlide from './slides/WorkSlide';
+import FutureSlide from './slides/FutureSlide';
 import EndSlide from './slides/EndSlide';
 
 export const groundworkCollaborativeConfig: SlideshowConfig = {
@@ -24,7 +25,7 @@ export const groundworkCollaborativeConfig: SlideshowConfig = {
   location: '',
   slides: [
     CoverSlide,        // 1. Intro
-    ProblemSlide,      // 2. Health policy modeling is gatekept
+    ProblemSlide,      // 2. Three bad options
     FourthOptionSlide, // 3. What if AI + credible models?
     Microsim1Slide,    // 4. Start with a household
     Microsim2Slide,    // 5. Apply policies
@@ -32,12 +33,13 @@ export const groundworkCollaborativeConfig: SlideshowConfig = {
     Microsim4Slide,    // 7. Scale to millions
     WhatIsPESlide,     // 8. What we build
     CoverageSlide,     // 9. Comprehensive coverage
-    LandscapeSlide,    // 10. Health modeling landscape
-    CapabilitiesSlide, // 11. What we model
-    WorkSlide,         // 12. ACA calc + CRFB
-    MarriageSlide,     // 13. Why tax and health must be modeled together
-    PartnersSlide,     // 14. Who uses it
-    VisionSlide,       // 15. Long-term vision
-    EndSlide,          // 16. Thank you
+    PartnersSlide,     // 10. Who uses it
+    DemoSlide,         // 11. App screenshots
+    ClaudeCodeSlide,   // 12. The PolicyEngine plugin for Claude
+    PluginWorkflowSlide, // 13. What can you ask?
+    MarriageSlide,     // 14. [healthcare] Why tax and health must be modeled together
+    WorkSlide,         // 15. [healthcare] ACA calculator + CRFB
+    FutureSlide,       // 16. AI enables a new paradigm of encoding
+    EndSlide,          // 17. Thank you
   ],
 };

@@ -9,7 +9,7 @@ export default function EndSlide() {
       </h1>
 
       <p className="text-2xl opacity-80 mb-8 text-center">
-        Let&apos;s make health and tax policy analysis open and accessible
+        Let&apos;s make policy analysis accessible
       </p>
 
       <div className="opacity-70 text-center space-y-3">
