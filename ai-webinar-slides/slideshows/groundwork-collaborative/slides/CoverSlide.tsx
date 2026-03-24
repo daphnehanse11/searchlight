@@ -16,19 +16,21 @@ export default function CoverSlide() {
           Open-source microsimulation for tax and health policy analysis
         </p>
 
-        <div className="flex items-center justify-center gap-4">
-          <div className="w-20 h-20 relative overflow-hidden rounded-full border-2 border-white/40">
-            <Image
-              src="/headshots/daphne-hansell.jpeg"
-              alt="Daphne Hansell"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="text-left">
-            <p className="text-xl font-semibold text-white">Daphne Hansell</p>
-            <p className="text-base text-white/70 font-light">Healthcare Analyst, PolicyEngine</p>
-          </div>
+        <div className="flex items-center justify-center gap-12 mt-4">
+          {[
+            { name: 'Max Ghenis', title: 'CEO, PolicyEngine', photo: '/headshots/max-ghenis.png' },
+            { name: 'Daphne Hansell', title: 'Healthcare Analyst, PolicyEngine', photo: '/headshots/daphne-hansell.jpeg' },
+          ].map((speaker) => (
+            <div key={speaker.name} className="flex items-center gap-4">
+              <div className="w-20 h-20 relative overflow-hidden rounded-full border-2 border-white/40">
+                <Image src={speaker.photo} alt={speaker.name} fill className="object-cover" />
+              </div>
+              <div className="text-left">
+                <p className="text-xl font-semibold text-white">{speaker.name}</p>
+                <p className="text-base text-white/70 font-light">{speaker.title}</p>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="opacity-60 text-center text-white">
