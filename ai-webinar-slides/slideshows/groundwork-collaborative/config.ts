@@ -12,6 +12,7 @@ import PartnersSlide from './slides/PartnersSlide';
 import DemoSlide from './slides/DemoSlide';
 import ClaudeCodeSlide from './slides/ClaudeCodeSlide';
 import PluginWorkflowSlide from './slides/PluginWorkflowSlide';
+import HealthcareIntroSlide from './slides/HealthcareIntroSlide';
 import MarriageSlide from './slides/MarriageSlide';
 import WorkSlide from './slides/WorkSlide';
 import FutureSlide from './slides/FutureSlide';
@@ -37,9 +38,10 @@ export const groundworkCollaborativeConfig: SlideshowConfig = {
     DemoSlide,         // 11. App screenshots
     ClaudeCodeSlide,   // 12. The PolicyEngine plugin for Claude
     PluginWorkflowSlide, // 13. What can you ask?
-    MarriageSlide,     // 14. [healthcare] Why tax and health must be modeled together
-    WorkSlide,         // 15. [healthcare] ACA calculator + CRFB
-    FutureSlide,       // 16. AI enables a new paradigm of encoding
-    EndSlide,          // 17. Thank you
+    HealthcareIntroSlide, // 14. [healthcare] PolicyEngine also models health coverage
+    MarriageSlide,        // 15. [healthcare] Why tax and health must be modeled together
+    WorkSlide,         // 16. [healthcare] ACA calculator + CRFB
+    FutureSlide,       // 17. AI enables a new paradigm of encoding
+    EndSlide,          // 18. Thank you
   ],
 };
