@@ -6,14 +6,14 @@ import SlideTitle from '@/components/SlideTitle';
 const FOOTER = 'Groundwork Collaborative · March 2026';
 
 const questions = [
-  { q: '"What would a $4,000 child tax credit cost?"', category: 'Budget score' },
-  { q: '"How many children would be lifted out of poverty?"', category: 'Poverty impact' },
+  { q: '"If enhanced ACA subsidies expire, how many people lose coverage?"', category: 'Coverage impact' },
+  { q: '"How does marriage affect ACA eligibility for two $45k earners?"', category: 'Household' },
   { q: '"Who wins and who loses by income decile?"', category: 'Distributional analysis' },
+  { q: '"What would a Medicaid income threshold change cost the federal government?"', category: 'Budget score' },
+  { q: '"How many children would be lifted out of poverty by expanding the CTC?"', category: 'Poverty impact' },
   { q: '"Compare EITC expansion to a $200/mo UBI"', category: 'Comparison' },
-  { q: '"Single parent earning $35k in Texas?"', category: 'Household' },
-  { q: '"Show me marginal tax rates under this reform"', category: 'Tax analysis' },
   { q: '"Impact in New York\u2019s 17th district?"', category: 'District' },
-  { q: '"Repealing the SALT cap on the top decile?"', category: 'Reform scoring' },
+  { q: '"Show me marginal tax rates under this reform"', category: 'Tax analysis' },
 ];
 
 export default function PluginWorkflowSlide() {

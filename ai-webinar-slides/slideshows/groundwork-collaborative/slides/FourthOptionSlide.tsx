@@ -35,7 +35,7 @@ export default function FourthOptionSlide() {
           </div>
           <div className="code-block-content">
             <p className="text-green-400">
-              &gt; What would a $3,000 fully refundable child tax credit cost the federal government, and how would it affect child poverty?
+              &gt; If the enhanced ACA premium tax credits expire, how many people lose coverage and what does it cost them?
             </p>
           </div>
         </div>

@@ -32,15 +32,15 @@ export default function DemoSlide() {
         <div>
           <div className="content-card overflow-hidden">
             <Image
-              src="/screenshots/pe-obbba-scatter.png"
-              alt="PolicyEngine household-by-household scatter plot"
+              src="/screenshots/pe-aca-calc.png"
+              alt="PolicyEngine ACA premium tax credits calculator"
               width={800}
               height={618}
               className="w-full h-auto"
             />
           </div>
           <p className="text-sm text-gray-500 mt-3 text-center">
-            Household-by-household impact of the One Big Beautiful Bill Act
+            ACA premium tax credit calculator — household-level health coverage costs
           </p>
         </div>
       </div>
