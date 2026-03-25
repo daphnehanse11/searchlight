@@ -35,7 +35,7 @@ export default function FourthOptionSlide() {
           </div>
           <div className="code-block-content">
             <p className="text-green-400">
-              &gt; What would a $3,000 fully refundable child tax credit cost the federal government, and how would it affect child poverty?
+              &gt; What would it cost to double the EITC and raise the top two marginal tax rates by 2 percentage points — and how would the tradeoffs play out across the income distribution?
             </p>
           </div>
         </div>
