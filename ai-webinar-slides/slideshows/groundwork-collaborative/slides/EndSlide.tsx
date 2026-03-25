@@ -15,6 +15,7 @@ export default function EndSlide() {
       <div className="opacity-70 text-center space-y-3">
         <p className="text-2xl font-semibold">policyengine.org</p>
         <p className="text-lg">github.com/PolicyEngine</p>
+        <p className="text-lg">max@policyengine.org</p>
         <p className="text-lg">daphne@policyengine.org</p>
       </div>
     </Slide>
