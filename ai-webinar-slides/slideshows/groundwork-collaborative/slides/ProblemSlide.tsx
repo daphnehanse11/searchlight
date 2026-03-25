@@ -43,7 +43,7 @@ export default function ProblemSlide() {
   return (
     <Slide footerText={FOOTER}>
       <SlideHeader>
-        <SlideTitle>You want to model how ACA subsidy changes affect coverage and costs. Now what?</SlideTitle>
+        <SlideTitle>You want to expand the child tax credit. Now what?</SlideTitle>
       </SlideHeader>
 
       <div className="grid grid-cols-3 gap-6 mt-4">
