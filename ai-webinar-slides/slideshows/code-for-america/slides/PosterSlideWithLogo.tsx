@@ -18,8 +18,8 @@ const presenters = [
     photo: '/headshots/jill-bauman.png',
     logo: '/logos/organizations/amplifi.png',
     orgAlt: 'Amplifi',
-    logoHeight: 76,
-    logoMaxWidth: 260,
+    logoHeight: 64,
+    logoMaxWidth: 220,
   },
   {
     name: 'Laura Glaab',
@@ -29,8 +29,8 @@ const presenters = [
     photoOffsetY: 14,
     logo: '/logos/organizations/myfriendben.png',
     orgAlt: 'MyFriendBen',
-    logoHeight: 76,
-    logoMaxWidth: 260,
+    logoHeight: 64,
+    logoMaxWidth: 220,
   },
   {
     name: 'Jeremy Barofsky',
@@ -82,7 +82,7 @@ export default function PosterSlideWithLogo() {
             {presenters.map((p) => (
               <div
                 key={p.name}
-                className="flex items-start gap-6 bg-white rounded-2xl p-6 shadow-lg"
+                className="flex items-center gap-6 bg-white rounded-2xl p-6 shadow-lg"
               >
                 <div className="w-[120px] h-[120px] relative overflow-hidden rounded-full flex-shrink-0">
                   <Image
