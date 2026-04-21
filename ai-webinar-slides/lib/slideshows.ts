@@ -4,6 +4,7 @@ import { abundanceDmvConfig } from '@/slideshows/abundance-dmv/config';
 import { searchlightConfig } from '@/slideshows/searchlight/config';
 import { searchlightHealthcareConfig } from '@/slideshows/searchlight-healthcare/config';
 import { groundworkCollaborativeConfig } from '@/slideshows/groundwork-collaborative/config';
+import { codeForAmericaConfig } from '@/slideshows/code-for-america/config';
 
 export const slideshows: SlideshowConfig[] = [
   aiWebinarConfig,
@@ -11,6 +12,7 @@ export const slideshows: SlideshowConfig[] = [
   searchlightConfig,
   searchlightHealthcareConfig,
   groundworkCollaborativeConfig,
+  codeForAmericaConfig,
 ];
 
 export function getSlideshowById(id: string): SlideshowConfig | undefined {
