@@ -9,8 +9,8 @@ const presenters = [
     photo: '/headshots/max-ghenis.png',
     logo: '/logos/teal.svg',
     orgAlt: 'PolicyEngine',
-    logoHeight: 36,
-    logoMaxWidth: 180,
+    logoHeight: 64,
+    logoMaxWidth: 220,
   },
   {
     name: 'Jill Bauman',
@@ -18,17 +18,19 @@ const presenters = [
     photo: '/headshots/jill-bauman.png',
     logo: '/logos/organizations/amplifi.png',
     orgAlt: 'Amplifi',
-    logoHeight: 64,
-    logoMaxWidth: 220,
+    logoHeight: 76,
+    logoMaxWidth: 260,
   },
   {
     name: 'Laura Glaab',
     title: 'Interim CEO',
     photo: '/headshots/laura-glaab.png',
+    photoScale: 1.3,
+    photoOffsetY: 14,
     logo: '/logos/organizations/myfriendben.png',
     orgAlt: 'MyFriendBen',
-    logoHeight: 64,
-    logoMaxWidth: 220,
+    logoHeight: 76,
+    logoMaxWidth: 260,
   },
   {
     name: 'Jeremy Barofsky',
@@ -76,10 +78,22 @@ export default function PosterSlide() {
             {presenters.map((p) => (
               <div
                 key={p.name}
-                className="flex items-center gap-6 bg-white rounded-2xl p-6 shadow-lg"
+                className="flex items-start gap-6 bg-white rounded-2xl p-6 shadow-lg"
               >
                 <div className="w-[120px] h-[120px] relative overflow-hidden rounded-full flex-shrink-0">
-                  <Image src={p.photo} alt={p.name} fill className="object-cover" />
+                  <Image
+                    src={p.photo}
+                    alt={p.name}
+                    fill
+                    className="object-cover"
+                    style={
+                      p.photoScale || p.photoOffsetY
+                        ? {
+                            transform: `translateY(${p.photoOffsetY ?? 0}%) scale(${p.photoScale ?? 1})`,
+                          }
+                        : undefined
+                    }
+                  />
                 </div>
                 <div className="min-w-0 flex-1 flex flex-col">
                   <p className="text-xl font-semibold text-[#1D4044] leading-tight">
@@ -88,7 +102,7 @@ export default function PosterSlide() {
                   <p className="text-sm text-[#4a6363] mt-1.5 leading-snug">
                     {p.title}
                   </p>
-                  <div className="w-full mt-4 flex items-start" style={{ height: `${p.logoHeight}px` }}>
+                  <div className="w-full mt-3 flex items-center">
                     <div
                       className="relative flex-shrink-0"
                       style={{ height: `${p.logoHeight}px`, width: '100%', maxWidth: `${p.logoMaxWidth}px` }}
