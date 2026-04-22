@@ -24,7 +24,7 @@ export default function CoverageCliffSlide() {
         <div className="mt-12 grid grid-cols-3 gap-8 max-w-5xl">
           {[
             { event: 'Getting married', consequence: "Spouse's income can push a family off Medicaid" },
-            { event: 'Having a child', consequence: 'CHIP eligibility opens — or closes — depending on state' },
+            { event: 'Having a child', consequence: "Household size can affect everyone's coverage, not just the new child's" },
             { event: 'Moving states', consequence: 'Medicaid thresholds vary by 2× across states' },
           ].map((item) => (
             <div
