@@ -5,6 +5,7 @@ import { searchlightConfig } from '@/slideshows/searchlight/config';
 import { searchlightHealthcareConfig } from '@/slideshows/searchlight-healthcare/config';
 import { groundworkCollaborativeConfig } from '@/slideshows/groundwork-collaborative/config';
 import { codeForAmericaConfig } from '@/slideshows/code-for-america/config';
+import { daphneLightningTalkConfig } from '@/slideshows/daphne-lightning-talk/config';
 
 export const slideshows: SlideshowConfig[] = [
   aiWebinarConfig,
@@ -13,6 +14,7 @@ export const slideshows: SlideshowConfig[] = [
   searchlightHealthcareConfig,
   groundworkCollaborativeConfig,
   codeForAmericaConfig,
+  daphneLightningTalkConfig,
 ];
 
 export function getSlideshowById(id: string): SlideshowConfig | undefined {
