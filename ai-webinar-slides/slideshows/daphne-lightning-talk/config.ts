@@ -3,7 +3,6 @@ import OpeningSlide from './slides/OpeningSlide';
 import TitleSlide from './slides/TitleSlide';
 import CoverageCliffSlide from './slides/CoverageCliffSlide';
 import DemoSlide from './slides/DemoSlide';
-import ArchitectureSlide from './slides/ArchitectureSlide';
 import CloseSlide from './slides/CloseSlide';
 
 export const daphneLightningTalkConfig: SlideshowConfig = {
@@ -12,5 +11,5 @@ export const daphneLightningTalkConfig: SlideshowConfig = {
   description: 'Code for America Summit lightning talk',
   date: 'May 2026',
   location: 'Code for America Summit',
-  slides: [OpeningSlide, TitleSlide, CoverageCliffSlide, DemoSlide, ArchitectureSlide, CloseSlide],
+  slides: [OpeningSlide, TitleSlide, CoverageCliffSlide, DemoSlide, CloseSlide],
 };

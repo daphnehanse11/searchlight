@@ -16,7 +16,7 @@ export default function CloseSlide() {
         />
       </div>
 
-      <div className="flex-1 flex flex-col justify-center px-20 relative z-10">
+      <div className="flex-1 flex flex-col justify-center pr-20 relative z-10" style={{ paddingLeft: '8.8%' }}>
         <h2
           className="text-6xl font-bold text-white leading-tight max-w-2xl"
           style={{ fontFamily: "'Source Serif Pro', 'Libre Baskerville', serif" }}

@@ -14,7 +14,7 @@ export default function DemoSlide() {
           className="text-7xl font-bold text-white text-center"
           style={{ fontFamily: "'Source Serif Pro', 'Libre Baskerville', serif" }}
         >
-          Life decisions simulator
+          Coverage Compass
         </h2>
         <p className="text-2xl text-white/75 text-center mt-2">
           Medicaid · CHIP · ACA premium tax credits · All 50 states

@@ -4,7 +4,7 @@ import CFASlide from '@/components/CFASlide';
 export default function CoverageCliffSlide() {
   return (
     <CFASlide variant="light">
-      <div className="flex-1 flex flex-col justify-center px-20 pt-16">
+      <div className="flex-1 flex flex-col justify-center pr-20 pt-16" style={{ paddingLeft: '8.8%' }}>
         <p
           className="text-sm font-bold uppercase tracking-widest mb-6"
           style={{ color: '#2B1A78' }}
@@ -24,7 +24,7 @@ export default function CoverageCliffSlide() {
         <div className="mt-12 grid grid-cols-3 gap-8 max-w-5xl">
           {[
             { event: 'Getting married', consequence: "Spouse's income can push a family off Medicaid" },
-            { event: 'Having a child', consequence: "Household size can affect everyone's coverage, not just the new child's" },
+            { event: 'Having a child', consequence: "Household size can affect everyone’s coverage, not just the new child’s" },
             { event: 'Moving states', consequence: 'Medicaid thresholds vary by 2× across states' },
           ].map((item) => (
             <div
