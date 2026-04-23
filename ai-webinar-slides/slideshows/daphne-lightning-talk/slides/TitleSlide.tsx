@@ -22,16 +22,16 @@ export default function TitleSlide() {
         className="absolute"
         style={{
           left: '8.8%',
-          top: '16%',
+          top: '24%',
           width: '83.9%',
           color: '#FFFFFF',
           fontFamily: "'Source Serif Pro', 'Libre Baskerville', 'Times New Roman', serif",
-          fontSize: '5.83vw',
+          fontSize: '4.6vw',
           fontWeight: 700,
           lineHeight: 1.1,
         }}
       >
-        Simulating Life Changes to Understand Health Coverage and Costs
+        Simulating Life Changes to<br />Understand Health Coverage and Costs
       </div>
 
       {/* Name — bold, #A1B4EA */}
@@ -53,7 +53,7 @@ export default function TitleSlide() {
         className="absolute"
         style={{
           left: '8.8%',
-          top: '66%',
+          top: '65%',
           color: '#FFFFFF',
           fontSize: '1.94vw',
           fontFamily: "'Source Sans Pro', Arial, sans-serif",
@@ -68,7 +68,7 @@ export default function TitleSlide() {
         className="absolute italic"
         style={{
           left: '8.8%',
-          top: '72%',
+          top: '69.5%',
           color: '#FFFFFF',
           fontSize: '1.94vw',
           fontFamily: "'Source Serif Pro', 'Libre Baskerville', serif",
