@@ -25,9 +25,13 @@ export default function CloseSlide() {
         </h2>
 
         <div className="mt-10 flex flex-col gap-4 text-xl text-white/85">
-          <p>🔗 policyengine.org</p>
-          <p>💻 github.com/PolicyEngine/policyengine-us</p>
+          <p>🔗 policyengine.org/coverage-compass</p>
+          <p>💻 github.com/PolicyEngine/coverage-compass</p>
           <p>✉️ daphne@policyengine.org</p>
+        </div>
+
+        <div className="mt-8">
+          <Image src="/qr-coverage-compass.png" alt="QR code" width={140} height={140} />
         </div>
 
         <div className="mt-12 flex items-center gap-4">
